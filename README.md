@@ -2,10 +2,12 @@
 
 **Independent Economic Research | Saudi Arabia | 2000–2025**
 
-**Author:** lana Alharbi
+**Author:** Lana Alharbi  
 **Michigan State University | Statistics**
 
 [**Read the Complete Research Paper**](Beyond_Oil_Final_Research_Paper.md)
+
+---
 
 ## Project Overview
 
@@ -21,13 +23,13 @@ The research combines data analysis, statistical modeling, and visualization to 
 
 The analysis compares average annual economic indicators before and after the introduction of Vision 2030.
 
-| Economic Indicator                | 2000–2015 | 2017–2025 |
-| --------------------------------- | --------: | --------: |
-| GDP Growth                        |     4.54% |     3.16% |
-| Oil Rents (% GDP)                 |    41.50% |  23.14%\* |
-| Manufacturing (% GDP)             |    10.11% |    14.37% |
-| Services (% GDP)                  |    38.62% |    47.52% |
-| Foreign Direct Investment (% GDP) |     0.46% |     1.47% |
+| Economic Indicator | 2000–2015 | 2017–2025 |
+|---|---:|---:|
+| GDP Growth | 4.54% | 3.16% |
+| Oil Rents (% GDP) | 41.50% | 23.14%* |
+| Manufacturing (% GDP) | 10.11% | 14.37% |
+| Services (% GDP) | 38.62% | 47.52% |
+| Foreign Direct Investment (% GDP) | 0.46% | 1.47% |
 
 *The post-launch oil-rents average covers 2017–2021 because later observations were unavailable in the dataset.*
 
@@ -45,12 +47,12 @@ A linear regression model was estimated to examine the historical relationship b
 
 **Model:** GDP Growth = β₀ + β₁(Oil Rents % GDP) + ε
 
-| Regression Metric     | Result |
-| --------------------- | -----: |
-| Observations          |     22 |
+| Regression Metric | Result |
+|---|---:|
+| Observations | 22 |
 | Oil Rents Coefficient | 0.1732 |
-| P-value               | 0.0095 |
-| R²                    | 0.2913 |
+| P-value | 0.0095 |
+| R² | 0.2913 |
 
 The model identifies a statistically significant positive association between oil rents and GDP growth in the observed sample.
 
@@ -60,31 +62,31 @@ This relationship is correlational and should not be interpreted as causal evide
 
 ### GDP Growth
 
-
+![Saudi GDP Growth](05_gdp_growth.png)
 
 ### Oil Rents
 
-
+![Saudi Oil Rents](06_oil_rents.png)
 
 ### Manufacturing
 
-
+![Manufacturing Share of GDP](07_manufacturing.png)
 
 ### Services
 
-
+![Services Share of GDP](08_services.png)
 
 ### Foreign Direct Investment
 
-
+![Foreign Direct Investment](09_fdi.png)
 
 ### Unemployment
 
-
+![Unemployment Trends](10_unemployment.png)
 
 ### Regression Analysis
 
-
+![Oil Rents and GDP Growth](12_regression_chart.png)
 
 ## Research Methodology
 
@@ -107,14 +109,14 @@ The research uses annual observations and compares 2000–2015 with 2017–2025,
 
 ## Repository Contents
 
-| File                                                          | Description                                                   |
-| ------------------------------------------------------------- | ------------------------------------------------------------- |
+| File | Description |
+|---|---|
 | [Complete Research Paper](Beyond_Oil_Final_Research_Paper.md) | Full study, methodology, findings, discussion, and references |
-| [R Analysis Script](Beyond_Oil_Clean_Full_Project.R)          | Statistical programming and analysis                          |
-| [World Bank Dataset](01_world_bank_saudi_data.csv)            | Economic indicators                                           |
-| [Data Coverage](02_data_coverage.csv)                         | Indicator availability                                        |
-| [Summary Statistics](03_summary.csv)                          | Descriptive statistics                                        |
-| [Period Comparison](04_comparison.csv)                        | Before-and-after economic comparisons                         |
+| [R Analysis Script](Beyond_Oil_Clean_Full_Project.R) | Statistical programming and analysis |
+| [World Bank Dataset](01_world_bank_saudi_data.csv) | Economic indicators |
+| [Data Coverage](02_data_coverage.csv) | Indicator availability |
+| [Summary Statistics](03_summary.csv) | Descriptive statistics |
+| [Period Comparison](04_comparison.csv) | Before-and-after economic comparisons |
 
 Seven additional PNG files contain the project's economic visualizations.
 
@@ -137,6 +139,6 @@ The statistical dataset analyzed in this study was obtained from the World Bank.
 
 ---
 
-**Research by Alana Alharbi | Michigan State University | November 2026**
+**Research by Lana Alharbi | Michigan State University**
 
 *An independent undergraduate research project demonstrating statistical programming, quantitative analysis, economic research, and data visualization.*
